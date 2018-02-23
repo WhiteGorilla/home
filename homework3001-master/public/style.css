@@ -1,0 +1,219 @@
+body {
+  width: 100%;
+}
+.inner-wrap {
+  width: 100%;
+  height: 1200px;
+  background-image: url(/pics/nyc.jpg);
+  background-repeat: round;
+  position: relative;
+  display: inline-block;
+}
+.header {
+  width: 100%;
+  top:0;
+  position: fixed;
+  background-color: #696969;
+  z-index: 10;
+}
+.wrapper {
+  display: inline-block;
+  width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.nav-item {
+  margin: 0px 20px;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: black;
+  transition: 0.5s all ease;
+}
+.content {
+  margin: 100px auto 0;
+  width: 30%;
+}
+.some_content {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  background-color: #696969;
+  color: white;
+  padding: 150px 30px;
+  text-align: center;
+  opacity: 0.7;
+}
+.about {
+  width: 100%;
+  height: 1200px;
+  background-image: url(/pics/nyc.jpg);
+  position: relative;
+  display: inline-block;
+}
+.about_content {
+  width: 500px;
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px auto;
+  opacity: 0.7;
+  padding: 5px;
+  z-index: 8;
+}
+.founder {
+  padding-top: 10px;
+  border-radius: 100%;
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+  display: block;
+  opacity: 0.7;
+}
+.feedback_text {
+  width: 100px;
+  height: 100px;
+  background-color: #696969;
+  opacity: 0.7;
+  color: white;
+  margin: 50px auto;
+  padding-top: 40px;
+  text-align: center;
+  border-radius: 100%;
+}
+.feedback {
+  width: 500px;
+  margin: 100px auto;
+}
+.button {
+  border-radius: 4px;
+  width: 100px;
+  margin: 5px auto;
+  opacity: 0.7;
+  background-color: #696969;
+  color: white;
+}
+.button:hover {
+  background-color: white;
+  color: #696969;
+  opacity: 0.7;
+  transition: 0.5s all ease;
+}
+.message_field {
+  background-color: #696969;
+  color: white;
+  width: 500px;
+  height: 200px;
+  margin: 0px auto;
+  opacity: 0.7;
+  border-radius: 20px;
+  resize: none;
+  padding: 5px;
+}
+.team-list {
+  opacity: 0.7;
+  width: 500px;
+  margin: 20px auto;
+}
+.team-list a {
+  text-align: center;
+  background-color: #696969;
+  color: white;
+}
+.contact-us {
+  width: 500px;
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px auto;
+  opacity: 0.7;
+  padding: 5px;
+}
+.joke-of-the-minute {
+  display: inline-block;
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  margin-top:50px;
+  margin-right: 50px;
+  padding: 30px;
+  opacity: 0.7;
+  float: right;
+  background-color: #696969;
+  color: white;
+  z-index: 10;
+}
+.joke-of-the-minute h6 {
+  font-weight: bold;
+}
+.become-a-team {
+  background-color: #696969!important;
+  opacity: 0.7;
+  color: white!important;
+}
+.button-team {
+  width: 100px;
+  background-color: #696969!important;
+  opacity: 0.7;
+  color: white!important;
+  border: black!important;
+}
+.for-team {
+  width: 400px;
+  margin: 20px auto;
+}
+.form-group h5 {
+  text-align: center;
+  color: white;
+}
+.form-group label {
+  color: white;
+}
+.founder-main {
+  padding-top: 10px;
+  border-radius: 100%;
+  margin: 50px auto;
+  display: block;
+  opacity: 0.7;
+  width: 200px;
+  height: 200px;
+}
+.button-team:hover {
+  background: white!important;
+  color: #696969!important;
+  transition: 0.5s all ease!important;
+}
+
+@media (max-width: 1200px) {
+  .joke-of-the-minute {
+    display: block;
+    font-size: 10px;
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    margin-top:50px;
+    margin-right: 50px;
+    padding: 25px;
+    opacity: 0.7;
+    float: right;
+    background-color: #696969;
+    color: white;
+    z-index: 10;
+}
+  .joke-of-the-minute h6 {
+    display: none;
+  }
+  .some_content {
+    padding: 100px 25px;
+    display: block;
+    float:right;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    font-size: 15px;
+  }
+}
