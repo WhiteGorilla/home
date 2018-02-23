@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+	<link rel="stylesheet" media="all" href="css/all.css"/>
+	<script src="client_script/script.js"></script>
+  </head>
+  <body>
+    <div class="loginBlock">
+    <p class="loginText">Login to our site</p>
+    <form id="loginForm"action="" method="POST">
+      <div id="login">
+        <input type="text" placeholder="Enter your email&hellip;" />
+      </div>
+      <div id="pass">
+        <input type="password" placeholder="Enter your password&hellip;" />
+      </div>
+      <div id="submit">
+        <input type="submit" />
+      </div>
+    </form>
+    <div>
+      <ul class="blockLinks">
+        <li><a href="http://localhost:3000/contact">Contact Me</a></li>
+        <li><a href="http://localhost:3000/about">About Page</a></li>
+        <li><a href="http://localhost:3000/stop">Stop Server</a></li>
+      </ul>
+    </div>
+	<div id="mailForm">
+	  <div  id="emailField">
+	    <input type="email" id="emailData" placeholder="Enter your e-mail&hellip;" />
+	  </div>
+	  <button id="sendEmailButton">Send E-mail</button>
+	  <div id="emailError"></div>
+	</div>
+	<div id="currencyExchange">
+	  <p>Currency on <span class="dateToday"></span>. Check this&hellip;</p>
+	  <button id='showCurrency'>Show Currency</button>
+	</div>
+    <footer>
+    </footer>
+  </body>
+</html>

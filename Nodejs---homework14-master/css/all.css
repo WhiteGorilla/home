@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font: 14px/1.6em "SourceSansPro Light", Arial, Helvetica, sans-serif;
+  color: #4e4e4e;
+  background: #fff;
+  user-select: none;
+}
+
+img {
+  border-style: none;
+  vertical-align: top; 
+  max-width:100%;
+}
+
+a {
+  text-decoration:underline; 
+  color: #24C2CB;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+input,
+select {
+  /* vertical-align: middle; */
+  outline: none;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+form,fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+q {
+  quotes: none;
+}
+
+q:after,
+q:before {
+  content: "";
+}
+
+p {
+  margin: 0;
+}
+
+.loginBlock {
+  width: 700px;
+  margin: 100px auto 0;
+  padding: 10px 0;
+}
+
+.loginText {
+  color: rgba(100, 100, 100, .6);
+  font-size: 30px;
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+#loginForm {
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+
+input::-moz-placeholder { 
+  color: rgba(100, 100, 100, .6);
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(100, 100, 100, .6); 
+}
+
+#login, #pass, #submit, #emailField, #sendEmailButton, #showCurrency {
+  border-radius: 6px;
+  border: #B8BAB8 solid 1px;
+  float: left;
+  padding:  5px;
+  margin: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+}
+
+#login:hover, #pass:hover, #submit:hover , #emailField:hover {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input[type="text"], input[type="password"] {
+  width: 200px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  color: rgba(100, 100, 100, .6); 
+}
+
+#submit , #sendEmailButton, #showCurrency{
+  background: #EF525B;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"], #sendEmailButton, #showCurrency {
+  color: #fff;
+  width: 150px;
+}
+
+#mailForm {
+  overflow: hidden;
+  margin: 0 0 50px;
+}
+#sendEmailButton {
+  padding: 10px 0 10px;
+}
+
+.blockLinks {
+  list-style: none;
+  margin: 0 0 50px;
+  overflow: hidden;
+  padding: 5px 225px;
+}
+
+.blockLinks li {
+  float: left;
+  margin: 0 5px 5px;
+}
+
+.blockNotFound {
+  width: 600px;
+  margin: 200px auto 0;
+  text-align: center;
+}
+
+.blockNotFound  p {
+  font-size: 30px;
+  line-height: 31px;
+  margin: 0 0 20px;
+}
+
+.blockNotFound .reason {
+  font-size: 18px;
+}
+
+#emailData{
+  box-sizing: border-box;
+  width: 425px;
+}
+
+#emailError {
+  float: left;
+  font-size: 27px;
+  padding: 10px 0 10px;
+}
+
+#currencyExchange {
+  text-align: center;
+}
+
+#showCurrency {
+  float: none;
+  width: inherit;
+  padding: 10px 100px;
+}
+
+.dateToday {
+  font-weight: bold; 
+}

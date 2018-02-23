@@ -1,0 +1,38 @@
+
+#main-table{
+	width: 800px;
+	margin: auto;
+}
+#main-table thead {
+	background: #333;
+	color: #fff;
+}
+td, thead tr th {
+	text-align: center;
+}
+#tabst {
+	background: #778899;
+}
+#bg {
+        position:fixed;
+        z-index: -1;
+        top:0;
+        left:0; 
+        min-width:100%;
+        min-height:100%;
+}
+#navs {
+	border: 4px double black;
+	background: #333;
+}
+#home{
+	background-color: #C0C0C0;
+	text-align: center;
+}
+#home h1 {
+	color: #B22222;
+}
+#home p{
+	text-align: justify;
+	font-size: 16px;
+}
